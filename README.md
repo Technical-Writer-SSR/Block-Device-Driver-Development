@@ -5,11 +5,11 @@
 ![Device Drivers](https://img.shields.io/badge/Device-Drivers-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## 📋 Project Overview
+##    Project Overview
 
 A complete, practical implementation of a Linux block device driver that behaves as a RAM-based virtual disk. This project serves as an educational resource for embedded engineers, students, and professionals to understand the full workflow of block driver development—from kernel interaction to integration with Yocto and Android BSP.
 
-## ✨ Key Features
+##    Key Features
 
 - ✅ **Complete RAM Disk Block Driver** – Fully functional C implementation
 - ✅ **Clean Initialization & Exit Routines** – Proper resource management
@@ -20,7 +20,7 @@ A complete, practical implementation of a Linux block device driver that behaves
 - ✅ **Android BSP Integration** – Complete Android kernel integration steps
 - ✅ **User-space Test Application** – Example I/O testing tools
 
-## 🎯 Learning Objectives
+##    Learning Objectives
 
 This project covers:
 - Understanding device drivers in the OS architecture
@@ -31,7 +31,7 @@ This project covers:
 - Android BSP customization for device drivers
 - Practical debugging and testing techniques
 
-## 📁 Project Structure
+##    Project Structure
 
 ```
 block-device-driver/
@@ -59,7 +59,7 @@ block-device-driver/
     └── test.sh                    # Driver testing
 ```
 
-## 🚀 Quick Start
+##    Quick Start
 
 ### Prerequisites
 ```bash
@@ -102,7 +102,7 @@ sudo mkfs.ext4 /dev/myblock0
 sudo mount /dev/myblock0 /mnt/ramdisk
 ```
 
-## 🧩 Driver Architecture
+##    Driver Architecture
 
 ### Block Driver Workflow
 ```
@@ -125,7 +125,7 @@ RAM Disk Operations
 - **`struct bio`** – Basic I/O container
 - **`struct block_device_operations`** – Driver operations table
 
-## 🔧 Yocto Integration
+##    Yocto Integration
 
 ### Creating Custom Layer
 ```bash
@@ -147,7 +147,7 @@ do_compile() {
 }
 ```
 
-## 🤖 Android BSP Integration
+##    Android BSP Integration
 
 ### Kernel Configuration
 ```makefile
@@ -167,7 +167,7 @@ example_block: example_block@0 {
 };
 ```
 
-## 📊 Driver Operations
+##    Driver Operations
 
 | Operation | Function | Description |
 |-----------|----------|-------------|
@@ -176,7 +176,7 @@ example_block: example_block@0 {
 | Read/Write | `example_queue_rq()` | Process I/O requests |
 | Ioctl | `example_ioctl()` | Device control |
 
-## 🧪 Testing
+##    Testing
 
 ### Automated Testing Script
 ```bash
@@ -194,7 +194,7 @@ example_block: example_block@0 {
 - ✅ Error handling
 - ✅ Performance benchmarking
 
-## 🔍 Debugging
+##    Debugging
 
 ### Enable Debug Messages
 ```c
@@ -215,7 +215,7 @@ cat /sys/block/myblock0/queue/scheduler
 iostat -x 1
 ```
 
-## 📈 Performance
+##    Performance
 
 ### Benchmark Results
 ```
@@ -225,7 +225,7 @@ Random 4K Write:  85,000 IOPS
 Random 4K Read:   120,000 IOPS
 ```
 
-## 🛡️ Security Considerations
+##    Security Considerations
 
 - Input validation in all I/O paths
 - Proper memory allocation/deallocation
@@ -233,7 +233,7 @@ Random 4K Read:   120,000 IOPS
 - Access control implementation
 - SELinux policy integration for Android
 
-## 📚 Documentation
+##    Documentation
 
 ### Additional Resources
 - [Linux Device Drivers, 3rd Edition](https://lwn.net/Kernel/LDD3/)
@@ -241,7 +241,7 @@ Random 4K Read:   120,000 IOPS
 - [Yocto Project Documentation](https://docs.yoctoproject.org/)
 - [Android Kernel Development](https://source.android.com/docs/core/architecture/kernel)
 
-## 🤝 Contributing
+##    Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -249,22 +249,22 @@ Random 4K Read:   120,000 IOPS
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+##    License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
+##    Authors
 
-- **Your Name** - *Initial work* - [@yourusername](https://github.com/yourusername)
+- **sebastian ramesh** - *Initial work* - [@Technical-Writer-SSR](https://github.com/Technical-Writer-SSR)
 
-## 🙏 Acknowledgments
+##    Acknowledgments
 
 - Linux kernel community
 - Yocto Project maintainers
 - Android Open Source Project
 - All contributors and testers
 
-## 📞 Support
+##    Support
 
 For questions and support:
 - Open an [issue](https://github.com/yourusername/block-device-driver/issues)
