@@ -22,7 +22,7 @@ A complete, practical implementation of a Linux block device driver that behaves
 
 ##    Learning Objectives
 
-This project covers:
+**This project covers:**
 - Understanding device drivers in the OS architecture
 - Differences between block and character drivers
 - Linux block I/O layer, buffer cache, and request queues
