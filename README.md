@@ -11,14 +11,23 @@ A complete, practical implementation of a Linux block device driver that behaves
 
 ##    Key Features
 
-- ✅ **Complete RAM Disk Block Driver** – Fully functional C implementation
-- ✅ **Clean Initialization & Exit Routines** – Proper resource management
-- ✅ **gendisk Registration** – Kernel disk structure integration
-- ✅ **Request Queue Handling** – BIO and request-based mechanisms
-- ✅ **Module Parameter Support** – Configurable disk size at load time
+-    **Complete RAM Disk Block Driver** – Fully functional C implementation
+-    **Clean Initialization & Exit Routines** – Proper resource management
+-    **gendisk Registration** – Kernel disk structure integration
+-   **Request Queue Handling** – BIO and request-based mechanisms
+    Module Parameter Support** – Configurable disk size at load time
 - ✅ **Yocto Integration Guide** – Recipe-based build system integration
 - ✅ **Android BSP Integration** – Complete Android kernel integration steps
 - ✅ **User-space Test Application** – Example I/O testing tools
+
+- **Complete RAM Disk Block Driver** – Fully functional C implementation
+- **Clean Initialization & Exit Routines** – Proper resource management
+- **gendisk Registration** – Kernel disk structure integration
+- **Request Queue Handling** – BIO and request-based mechanisms
+- **Module Parameter Support** – Configurable disk size at load time
+- **Yocto Integration Guide** – Recipe-based build system integration
+- **Android BSP Integration** – Complete Android kernel integration steps
+- **User-space Test Application** – Example I/O testing tools
 
 ##    Learning Objectives
 
