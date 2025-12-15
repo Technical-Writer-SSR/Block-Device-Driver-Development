@@ -5,7 +5,6 @@
 ![Device Drivers](https://img.shields.io/badge/Device-Drivers-orange)
 ![Block Device Driver](img.shields.io)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-![Block Device Driver](img.shields.io)
 
 ##    Project Overview
 
